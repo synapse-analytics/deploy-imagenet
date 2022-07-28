@@ -2,18 +2,9 @@
 
 ### ImageNet2012 Deployment and Inference Benchmarks
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-[Prototype table]
-
 | Model             | PyTorch (Float32)  ||| ONNX (Float32)     ||| ONNX (Int8)         |||
-|                   | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent  |
+| ----------------- | ----- | ----- | ---- | ----- | ----- | ---- | ----- | ----- | ----- |
+| Metric            | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent  |
 | ----------------- | ----- | ----- | ---- | ----- | ----- | ---- | ----- | ----- | ----- |
 | ResNet50          |       |       |      |       |       |      |       |       |       |
 | AlexNet           |       |       |      |       |       |      |       |       |       |
