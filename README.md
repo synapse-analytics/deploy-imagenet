@@ -36,8 +36,10 @@
 | Wide ResNet-101-2 |       |       |       |         |         |         |        |        |         |
 | MNASNet           |       |       |       |         |         |         |        |        |         |
 
-<> TODO: Make cleaner column header
-<> TODO: Add Results
+<!---------------------------------
+TODO: Make cleaner column header
+TODO: Add Results 
+---------------------------------->
 
 ### PyTorch Model Loading
 ```
