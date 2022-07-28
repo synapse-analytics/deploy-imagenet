@@ -1,6 +1,6 @@
 # deploy-imagenet
 
-### ImageNet2012 Inference Evaluation Benchmarks
+### ImageNet2012 Deployment Evaluation Benchmarks
 
 | Model             | PT-32 | PT-32 | PT-32 | ONNX-32 | ONNX-32 | ONNX-32 | ONNX-8 | ONNX-8 | ONNX-8  |
 | ----------------- | ----- | ----- | ----- | ------- | ------- | ------- | ------ | ------ | ------- |
