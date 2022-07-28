@@ -5,7 +5,6 @@
 | Model | <td colspan=3>PyTorch (Float32)<td colspan=2> | <td colspan=3>ONNX (Float32)<td colspan=2> | <td colspan=3>ONNX (Int8)<td colspan=2> |
 | ----------------- | ----- | ----- | ---- | ----- | ----- | ---- | ----- | ----- | ----- |
 | Metric            | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent | Top-1 | Top-5 | Xent  |
-| ----------------- | ----- | ----- | ---- | ----- | ----- | ---- | ----- | ----- | ----- |
 | ResNet50          |       |       |      |       |       |      |       |       |       |
 | AlexNet           |       |       |      |       |       |      |       |       |       |
 | VGG-11            |       |       |      |       |       |      |       |       |       |
