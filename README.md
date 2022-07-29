@@ -2,39 +2,105 @@
 
 ### ImageNet2012 Deployment Evaluation Benchmarks
 
-| Model             | PT-32 | PT-32 | PT-32 | ONNX-32 | ONNX-32 | ONNX-32 | ONNX-8 | ONNX-8 | ONNX-8  |
-| ----------------- | ----- | ----- | ----- | ------- | ------- | ------- | ------ | ------ | ------- |
-| Metric            | Top-1 | Top-5 | Xent  | Top-1   | Top-5   | Xent    | Top-1  | Top-5  | Xent    |
-| ResNet50          |       |       |       |         |         |         |        |        |         |
-| AlexNet           |       |       |       |         |         |         |        |        |         |
-| VGG-11            |       |       |       |         |         |         |        |        |         |
-| VGG-13            |       |       |       |         |         |         |        |        |         |
-| VGG-16            |       |       |       |         |         |         |        |        |         |
-| VGG-19            |       |       |       |         |         |         |        |        |         |
-| VGG-11 BN         |       |       |       |         |         |         |        |        |         |
-| VGG-13 BN         |       |       |       |         |         |         |        |        |         |
-| VGG-16 BN         |       |       |       |         |         |         |        |        |         |
-| VGG-19 BN         |       |       |       |         |         |         |        |        |         |
-| ResNet-18         |       |       |       |         |         |         |        |        |         |
-| ResNet-34         |       |       |       |         |         |         |        |        |         |
-| ResNet-50         |       |       |       |         |         |         |        |        |         |
-| ResNet-101        |       |       |       |         |         |         |        |        |         |
-| ResNet-152        |       |       |       |         |         |         |        |        |         |
-| SqueezeNet 1.0    |       |       |       |         |         |         |        |        |         |
-| SqueezeNet 1.1    |       |       |       |         |         |         |        |        |         |
-| Densenet-121      |       |       |       |         |         |         |        |        |         |
-| Densenet-169      |       |       |       |         |         |         |        |        |         |
-| Densenet-201      |       |       |       |         |         |         |        |        |         |
-| Densenet-161      |       |       |       |         |         |         |        |        |         |
-| Inception V3      |       |       |       |         |         |         |        |        |         |
-| GoogleNet         |       |       |       |         |         |         |        |        |         |
-| ShuffleNet V2     |       |       |       |         |         |         |        |        |         |
-| MobileNet V2      |       |       |       |         |         |         |        |        |         |
-| ResNeXt-50-32x4d  |       |       |       |         |         |         |        |        |         |
-| ResNeXt-101-32x8d |       |       |       |         |         |         |        |        |         |
-| Wide ResNet-50-2  |       |       |       |         |         |         |        |        |         |
-| Wide ResNet-101-2 |       |       |       |         |         |         |        |        |         |
-| MNASNet           |       |       |       |         |         |         |        |        |         |
+<table>
+  <tr>
+    <td colspan="1">Model</td>
+    <td colspan="3">PyTorch (Float 32)</td>
+    <td colspan="3">ONNX (Float 32)</td>
+    <td colspan="3">ONNX (Int 8)</td>
+  </tr>
+  
+  <tr><td>Metric</td>
+     <td>Top-1</td><td>Top-5</td><td>Xent </td><td>Top-1</td><td>Top-5</td><td>Xent </td><td>Top-1</td><td>Top-5</td><td>Xent</td>
+  </tr>
+  <tr><td>ResNet34</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>AlexNet</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-11</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-13</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-16</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-19</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-11 BN</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-16 BN</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>VGG-19 BN</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNet-18</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNet-34</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNet-50</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNet-101</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNet-152</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>SqueezeNet 1.0</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>SqueezeNet 1.1</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Densenet-121</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Densenet-169</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Densenet-201</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Densenet-161</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Inception V3</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>GoogleNet</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ShuffleNet V2</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>MobileNet V2</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNeXt-50-32x4d</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>ResNeXt-101-32x8d</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Wide ResNet-50-2</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>Wide ResNet-101-2</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+  <tr><td>MNASNet</td>
+     <td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td><td>XX.XX</td>
+  </tr>
+</table>
 
 <!---------------------------------
 TODO: Make cleaner column header
